@@ -60,3 +60,4 @@ CREATE QUERY pageRank (STRING v_type, STRING e_type,
 		END;
 	END;
 }
+INSTALL QUERY pageRank

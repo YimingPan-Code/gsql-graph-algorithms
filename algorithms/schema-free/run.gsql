@@ -1,0 +1,2 @@
+RUN QUERY conn_comp(“Comment”,”REPLY_OF”,100,FALSE,””,””)
+RUN QUERY pageRank(“Comment”,”REPLY_OF”,0.001,25,0.85,100,FALSE,””,””,FALSE)

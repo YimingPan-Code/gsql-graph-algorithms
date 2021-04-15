@@ -54,3 +54,4 @@ CREATE QUERY conn_comp (SET<STRING> v_type, SET<STRING> e_type, INT output_limit
 	  PRINT Start[Start.@cc_id];
 	END;
 }
+INSTALL QUERY conn_comp
